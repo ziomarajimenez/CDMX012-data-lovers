@@ -64,7 +64,7 @@ header {
 
 /*main section*/
 main {
-  display: grid;
+  display: flex;
   /* margin-top: 20px; */
   flex-flow: column wrap;
   justify-content: center;
@@ -75,24 +75,17 @@ main {
 .sliderBox{
   width: 100%;
   height: 650px;
-  /* position: relative;  */
-}
-
-.slider {
-  width: 100%;
-  height: 650px; 
-  overflow: hidden;
-  /* position: relative;  */
+  position: relative;  
 }
 
 /*goToAllMovies*/
-.slider a {
+.sliderBox a {
   width: 100%;
   height: 100%;  
-  position: absolute;
+  /* position: absolute; */
 }
 
-.slider .goMovies {
+.sliderBox .goMovies {
   font-style: normal;
   z-index: 998;   
   color: #d8af39;
@@ -102,11 +95,19 @@ main {
   font-size: 40px;
   cursor: pointer;
   text-decoration: none;
-  top: 94%;
+  position: absolute;
+  top: 600px;
 }
 
 .goMovies:hover {
   color: #ebe9e9;
+}
+
+.slider {
+  width: 100%;
+  height: 650px; 
+  overflow: hidden;
+  /* position: relative;  */
 }
 
 .slider ul {
@@ -440,7 +441,7 @@ footer {
   .sliderBox{
     width: 100%;
     height: 650px;
-    /* position: relative;  */
+    position: relative; 
   }
   
   .slider {
@@ -451,9 +452,10 @@ footer {
   }
   
   /*goToAllMovies*/
-  .slider .goMovies {
+  .sliderBox .goMovies {
     font-size: 38px;
-    top: 108%;
+    top: 600px;
+    position: absolute;
   }
   
   .slider img {
@@ -512,9 +514,9 @@ footer {
 
 /*medium devices (tablets, ipads)*/
 @media only screen and (max-width: 829px) and (min-width: 590px) {
-  .slider .goMovies {
+  .sliderBox .goMovies {
     font-size: 35px;
-    top: 101%;
+    top: 550px;
   }
   .sliderBox{
     height: 600px;
@@ -581,9 +583,9 @@ footer {
 
 /*small devices (phones)*/
 @media only screen and (max-width: 589px) and (min-width: 480px) {
-  .slider .goMovies {
+  .sliderBox .goMovies {
     font-size: 25px;
-    top: 88%;
+    top: 450px;
   }
   .sliderBox{
     height: 500px;
@@ -667,9 +669,9 @@ footer {
 
 /*smaller devices (phones)*/
 @media only screen and (max-width: 479px) and (min-width: 350px) {
-  .slider .goMovies {
+  .sliderBox .goMovies {
     font-size: 25px;
-    top: 72%;
+    top: 350px;
   }
   .sliderBox{
     height: 400px;
