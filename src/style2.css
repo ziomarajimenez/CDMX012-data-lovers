@@ -270,6 +270,37 @@ box-shadow: 0 0.3125rem 0.625rem #4c413f;
     padding: 5px;
     border-radius: 5px;
     }
+
+/*scrolltop section */
+.scrollTopBtn {
+  position: fixed;
+  z-index: 999;
+  bottom: 0.25rem;
+  right: 2.5rem;
+  width: 4.375rem;
+  height: 4.0625rem;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  background: #14454c;
+  color: #d8af39;
+  font-weight: bolder;
+  font-size: 2.1875rem;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  transition: all 0.3s ease-out;
+}
+
+.scrollTopBtn:hover {
+  background: #4c413f;
+  color: #d8af39;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
     
 /* Footer */
 footer {
