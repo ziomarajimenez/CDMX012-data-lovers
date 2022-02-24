@@ -74,7 +74,7 @@ main {
 .sliderBox {
   width: 100%;
   height: 650px;
-  position: relative;  
+  position: relative;
 }
 
 /*goToAllMovies*/
@@ -103,7 +103,7 @@ main {
 
 .slider {
   width: 100%;
-  height: 650px; 
+  height: 650px;
   overflow: hidden;
 }
 
@@ -456,7 +456,7 @@ footer {
   .sliderBox {
     width: 100%;
     height: 650px;
-    position: relative; 
+    position: relative;
   }
 
   .slider {
@@ -468,7 +468,7 @@ footer {
   /*goToAllMovies*/
   .sliderBox .goMovies {
     font-size: 38px;
-    top: 600px;
+    top: 570px;
     position: absolute;
   }
 
@@ -577,7 +577,7 @@ footer {
     height: 35px;
     width: 35px;
   }
-  
+
   #allMovies {
     font-size: 30px;
   }
