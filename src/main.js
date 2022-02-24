@@ -92,8 +92,7 @@ window.addEventListener("scroll", hideBtn);
 //Filter
 let searchBar = document.getElementById("searchBar"); 
 
-searchBar.addEventListener('keypress', (e)=>{
-if (e.key === "Enter"){
+searchBar.addEventListener('keyup', (e)=>{
     const searchString = e.target.value.toLowerCase(); 
 
     const filteredMovies = data.films.filter(movie => { 
@@ -102,16 +101,15 @@ if (e.key === "Enter"){
     document.getElementById("showMessage").innerText = " "
     let arraySearch = [];
     if (filteredMovies.length == 0){
-        document.getElementById("showMessage").innerText = "Sorry! We couldn't find a movie for you. Try different movie title or director"; 
+        document.getElementById("showMessage").innerText = "Sorry! We couldn't find a movie for you. Try different a movie title or director"; 
     } 
     for(let i = 0; i < filteredMovies.length; i++){ 
         arraySearch.push(filmPosters(filteredMovies[i])); 
     }
     
     createPoster(arraySearch);
-    
-   
-}
+
+
     
 })
 

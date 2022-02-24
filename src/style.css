@@ -247,6 +247,7 @@ select {
   color: #4c413f;
   border-radius: 5px;
   border: 1px solid #4c413f;
+  padding-left: 2%;
 }
 
 input[type="search"]::placeholder {
@@ -270,9 +271,14 @@ input[type="search"]::placeholder {
   grid-template-columns: auto auto auto auto;
 }
 
-/* #showMessage {
-  background-color: red;
-} */
+#showMessage {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #4c413f;
+  margin-bottom: 50px;
+}
 
 /* global card characteristics */
 .globalCard {
@@ -524,6 +530,12 @@ footer {
   #moviesList {
     grid-template-columns: auto auto auto;
   }
+  #showMessage {
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bolder;
+    color: #4c413f;
+  }
 }
 
 /*medium devices (tablets, ipads)*/
@@ -592,6 +604,15 @@ footer {
 
   #moviesList {
     grid-template-columns: auto auto;
+  }
+
+  #showMessage {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #4c413f;
+    margin-bottom: 50px;
   }
 }
 
@@ -676,6 +697,12 @@ footer {
 
   #moviesList {
     grid-template-columns: auto auto;
+  }
+  #showMessage {
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bolder;
+    color: #4c413f;
   }
 }
 
@@ -765,5 +792,12 @@ footer {
 
   #moviesList {
     grid-template-columns: auto auto;
+  }
+
+  #showMessage {
+    margin: 10px 20px 10px 20px;
+    font-size: 12px;
+    font-weight: bolder;
+    color: #4c413f;
   }
 }
