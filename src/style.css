@@ -467,7 +467,6 @@ footer {
 
   /*goToAllMovies*/
   .sliderBox .goMovies {
-    border: solid red;
     font-size: 38px;
     top: 580px;
     position: absolute;
