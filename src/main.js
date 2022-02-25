@@ -30,8 +30,7 @@ window.addEventListener("scroll", hideBtn);
 //Filter
 let searchBar = document.getElementById("searchBar"); 
 
-searchBar.addEventListener('keypress', (e)=>{
-if (e.key === "Enter"){
+searchBar.addEventListener('keyup', (e)=>{
     const searchString = e.target.value.toLowerCase(); 
 
     const filteredMovies = data.films.filter(movie => { 
@@ -48,8 +47,6 @@ if (e.key === "Enter"){
     
     createPoster(arraySearch);
     
-   
-}
     
 })
 
