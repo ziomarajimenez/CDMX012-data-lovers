@@ -87,3 +87,26 @@ export function hideBtn(){
   }
 }
   
+//filter movies
+export function sortMovies(userSelection, array) {
+    
+  if (userSelection =="AZ"){
+       array.sort(function (a,b){   
+          return  a[1] > b[1] ? 1 : -1
+      })
+
+  } else if (userSelection == "ZA"){
+       array.sort(function (a,b){   
+          return  a[1] < b[1] ? 1 : -1
+      })
+  } else if (userSelection == "rating") {
+       array.sort(function (a,b){   
+          return Number(b[4]) - Number(a[4])
+      })
+  } else if( userSelection == "year"){
+       array.sort(function (a,b){   
+          return Number(b[3]) - Number(a[3])
+      })
+  }
+  
+}

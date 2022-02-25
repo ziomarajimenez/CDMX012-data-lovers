@@ -1,6 +1,6 @@
 //Import data and functions 
 import data from './data/ghibli/ghibli.js';
-import {filmPosters, backToTop, hideBtn, createPoster} from './data.js'
+import {filmPosters, backToTop, hideBtn, createPoster, sortMovies} from './data.js'
 
 //Create an array with poster, title, description, release_date, rating score and id.
 let allFilms = []; 
@@ -8,35 +8,16 @@ for(let i = 0; i < data.films.length; i++){
     allFilms.push(filmPosters(data.films[i]));
 }
 
+
+console.log(allFilms); 
+
 //Create movie cards
 createPoster(allFilms); 
 
 
-
 //Use the selected value to filter the movies 
-document.getElementById("selectFilter").addEventListener("change", function() {
-    let userSelection = this.value;
-    if (userSelection =="AZ"){
-         allFilms.sort(function (a,b){   
-            return  a[1] > b[1] ? 1 : -1
-        })
-
-    } else if (userSelection == "ZA"){
-         allFilms.sort(function (a,b){   
-            return  a[1] < b[1] ? 1 : -1
-        })
-    } else if (userSelection == "rating") {
-         allFilms.sort(function (a,b){   
-            return Number(b[4]) - Number(a[4])
-        })
-    } else if( userSelection == "year"){
-         allFilms.sort(function (a,b){   
-            return Number(b[3]) - Number(a[3])
-        })
-    }
-    createPoster(allFilms)
-    
-});
+document.getElementById("selectFilter").addEventListener("change", function (){
+    sortMovies(this.value, allFilms), createPoster(allFilms) })
 
 
 //boton ScrollTop
