@@ -620,23 +620,23 @@ footer {
 @media only screen and (max-width: 589px) and (min-width: 480px) {
   .sliderBox .goMovies {
     font-size: 25px;
-    top: 450px;
+    top: 380px;
   }
   .sliderBox {
-    height: 500px;
+    height: 420px;
   }
 
   .slider {
-    height: 500px;
+    height: 420px;
   }
 
   .slider ul {
-    height: 500px;
+    height: 420px;
   }
 
   .slider img {
     width: 100%;
-    height: 500px;
+    height: 420px;
   }
 
   .slider #topText {
@@ -710,23 +710,23 @@ footer {
 @media only screen and (max-width: 479px) and (min-width: 350px) {
   .sliderBox .goMovies {
     font-size: 25px;
-    top: 350px;
+    top: 300px;
   }
   .sliderBox {
-    height: 400px;
+    height: 350px;
   }
 
   .slider {
-    height: 400px;
+    height: 350px;
   }
 
   .slider ul {
-    height: 400px;
+    height: 350px;
   }
 
   .slider img {
     width: 100%;
-    height: 400px;
+    height: 350px;
   }
 
   .slider #topText {
