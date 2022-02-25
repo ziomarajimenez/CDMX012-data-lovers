@@ -710,7 +710,7 @@ footer {
 @media only screen and (max-width: 479px) and (min-width: 350px) {
   .sliderBox .goMovies {
     font-size: 25px;
-    top: 300px;
+    top: 320px;
   }
   .sliderBox {
     height: 350px;
