@@ -1,7 +1,7 @@
 //Import data and functions 
 import data from './data/ghibli/ghibli.js';
-import {backToTop, hideBtn} from './data.js';
-import {average, createElements} from './data2.js';
+import {average} from './data.js';
+// import {createElements} from './data2.js';
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
@@ -45,7 +45,26 @@ let description = document.getElementById("description")
 let saveDescription= found.description; 
 description.innerHTML = saveDescription;
 
-
+ const createElements = (classSection, elementTitle, array, divId) =>{
+    let elementSection = document.querySelector(classSection);
+    let title = document.createElement("h2");
+    title.innerHTML = elementTitle;
+    elementSection.insertBefore(title, elementSection.firstChild);
+    
+    for(let element of array){
+       let card = document.createElement("figure")
+       let elementImg = document.createElement("img");
+       elementImg.setAttribute("src", element.img);
+       let elementName = document.createElement("figcaption");
+       elementName.innerHTML = element.name;
+       card.appendChild(elementImg); 
+       card.appendChild(elementName)
+ 
+       let elementList = document.getElementById(divId);
+       elementList.appendChild(card)
+    }
+ }
+ 
 //Characters 
 if(found.people.length >0){
     createElements(".characters", "Characters", found.people, "characterPictures")
@@ -71,6 +90,27 @@ linkMovie.setAttribute("href", found.movie);
 //   //INTERACCION DE LOS BOTONES
 //boton ScrollTop
 const btnSelector = document.querySelector(".scrollTopBtn");
+
+
+function backToTop(){
+    // window.scrollTo(0,0);
+    window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth"
+      })
+  }
+    
+  //hide button
+ function hideBtn(){
+    
+    if(window.pageYOffset > 900){
+      document.getElementById("scrollTop").classList.remove("hidden");
+    }else{
+      document.getElementById("scrollTop").classList.add("hidden")
+    }
+  }
+    
 
 btnSelector.addEventListener("click", backToTop);
 window.addEventListener("scroll", hideBtn);

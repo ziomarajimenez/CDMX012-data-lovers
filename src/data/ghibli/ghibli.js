@@ -1485,7 +1485,7 @@ export default {
       "poster": "https://static.wikia.nocookie.net/studio-ghibli/images/0/08/Howl%27s_Moving_Castle.jpg",
       "release_date": "2004",
       "rt_score": "87",
-      "movie": "https://archive.org/details/watchfullhowlsmovingcastledubep1englishsubkissa",
+      "movie": "https://www.netflix.com/title/70028883",
       "people": [
         {
           "id": "fa9b410f-cad4-457d-ac71-86b0afa6cf0a",
