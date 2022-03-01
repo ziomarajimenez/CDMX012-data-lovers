@@ -56,4 +56,5 @@ Durante la creación de la página se mostraron  a usuarias los prototipos en su
 ## 4. Producto terminado
 ###Versión desktop
 
-![Imagen final del proyecto](https://github.com/ziomarajimenez/CDMX012-data-lovers/blob/main/celu1.png?raw=true)
+![Imagen final del proyecto](https://github.com/ziomarajimenez/CDMX012-data-lovers/blob/main/desktop1.png?raw=true)
+![Imagen final del proyecto](https://github.com/ziomarajimenez/CDMX012-data-lovers/blob/main/desktop2.png?raw=true)
