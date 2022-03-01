@@ -57,9 +57,9 @@ header {
 
 /* Movie info and poster*/
 
-main{
+main {
   display: flex;
-  margin-top: 20px; 
+  margin-top: 20px;
   flex-flow: column wrap;
   justify-content: center;
   width: 100%;
@@ -75,14 +75,12 @@ h1 {
   font-weight: bolder;
   font-size: 50px;
 }
-        
+
 #movieInfoAndPoster {
   background-color: rgba(255, 250, 250, 0.39);
   display: flex;
   justify-content: center;
   width: 80%;
-  /* padding-top: 50px;
-  padding-bottom: 30px; */
   align-self: center;
   height: 450px;
   border: 2px solid #4c413f;
@@ -92,11 +90,10 @@ h1 {
 
 #movieInfoAndPoster #moviePoster {
   border-radius: 2%;
-  
   height: 100%;
 }
 
-#movieInfo{
+#movieInfo {
   text-align: center;
   font-size: 18px;
   overflow: hidden;
@@ -105,13 +102,13 @@ h1 {
   color: #4c413f;
 }
 
-#movieInfo p{
+#movieInfo p {
   text-align: center;
   font-size: 18px;
   padding: 12px;
 }
 
-#movieInfo button{
+#movieInfo button {
   text-align: center;
   font-size: 18px;
   padding: 12px;
@@ -126,32 +123,29 @@ h1 {
   box-shadow: 0 0.3125rem 0.625rem #4c413f;
 }
 
-#movieInfo button:hover{
+#movieInfo button:hover {
   color: #efefef;
 }
 
-
-
-.characters{
+.characters {
   display: flex;
   width: 80%;
   background: rgba(255, 250, 250, 0.39);
   justify-content: center;
-  /* padding: 40px; */
   position: relative;
   align-self: center;
   padding-bottom: 20px;
 }
 
-h2{
- position: absolute;
-font-size: 40px;
-font-weight: bolder;
-margin-bottom: 20px;
-color: #4c413f;
+h2 {
+  position: absolute;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  color: #4c413f;
 }
 
-#characterPictures{
+#characterPictures {
   display: grid;
   color: #4c413f;
   grid-gap: 30px;
@@ -159,14 +153,14 @@ color: #4c413f;
   margin-top: 60px;
 }
 
-#characterPictures img{
-height: 280px;
-width: 240px;
-border-radius: 10px;
-box-shadow: 0 0.3125rem 0.625rem #4c413f;
+#characterPictures img {
+  height: 280px;
+  width: 240px;
+  border-radius: 10px;
+  box-shadow: 0 0.3125rem 0.625rem #4c413f;
 }
 
-#characterPictures figcaption{
+#characterPictures figcaption {
   text-align: center;
   font-size: 16px;
   font-weight: bold;
@@ -178,12 +172,11 @@ box-shadow: 0 0.3125rem 0.625rem #4c413f;
   border-radius: 5px;
 }
 
-.locations{
+.locations {
   display: flex;
   width: 80%;
   background: rgba(255, 250, 250, 0.39);
   justify-content: center;
-  /* padding: 40px; */
   position: relative;
   align-self: center;
   margin-top: 40px;
@@ -191,14 +184,14 @@ box-shadow: 0 0.3125rem 0.625rem #4c413f;
   padding-bottom: 40px;
 }
 
-h2{
- position: absolute;
-font-size: 40px;
-font-weight: bolder;
-margin-bottom: 20px;
+h2 {
+  position: absolute;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 20px;
 }
 
-#locationPictures{
+#locationPictures {
   display: grid;
   color: #4c413f;
   grid-gap: 30px;
@@ -206,14 +199,14 @@ margin-bottom: 20px;
   margin-top: 60px;
 }
 
-#locationPictures img{
-height: 280px;
-width: 240px;
-border-radius: 10px;
-box-shadow: 0 0.3125rem 0.625rem #4c413f;
+#locationPictures img {
+  height: 280px;
+  width: 240px;
+  border-radius: 10px;
+  box-shadow: 0 0.3125rem 0.625rem #4c413f;
 }
 
-#locationPictures figcaption{
+#locationPictures figcaption {
   text-align: center;
   font-size: 16px;
   font-weight: bold;
@@ -223,53 +216,52 @@ box-shadow: 0 0.3125rem 0.625rem #4c413f;
   color: #efefef;
   padding: 5px;
   border-radius: 5px;
-  }
+}
 
-  .vehicles{
-    display: flex;
-    width: 80%;
-    background: rgba(255, 250, 250, 0.39);
-    justify-content: center;
-    /* padding: 40px; */
-    position: relative;
-    align-self: center;
-    margin-top: 40px;
-    padding-bottom: 20px;
-  }
-  
-  h2{
-   position: absolute;
+.vehicles {
+  display: flex;
+  width: 80%;
+  background: rgba(255, 250, 250, 0.39);
+  justify-content: center;
+  position: relative;
+  align-self: center;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  position: absolute;
   font-size: 40px;
   font-weight: bolder;
   margin-bottom: 20px;
-  }
-  
-  #vehiclePictures{
-    display: grid;
-    color: #4c413f;
-    grid-gap: 30px;
-    grid-template-columns: auto auto auto auto;
-    margin-top: 60px;
-  }
-  
-  #vehiclePictures img{
+}
+
+#vehiclePictures {
+  display: grid;
+  color: #4c413f;
+  grid-gap: 30px;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 60px;
+}
+
+#vehiclePictures img {
   height: 280px;
   width: 240px;
   border-radius: 10px;
   box-shadow: 0 0.3125rem 0.625rem #4c413f;
-  }
-  
-  #vehiclePictures figcaption{
-    text-align: center;
-    font-size: 16px;
-    font-weight: bold;
-    width: 240px;
-    background: #4c413f;
-    height: 45px;
-    color: #efefef;
-    padding: 5px;
-    border-radius: 5px;
-    }
+}
+
+#vehiclePictures figcaption {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  width: 240px;
+  background: #4c413f;
+  height: 45px;
+  color: #efefef;
+  padding: 5px;
+  border-radius: 5px;
+}
 
 /*scrolltop section */
 .scrollTopBtn {
@@ -301,7 +293,7 @@ box-shadow: 0 0.3125rem 0.625rem #4c413f;
   opacity: 0;
   visibility: hidden;
 }
-    
+
 /* Footer */
 footer {
   height: 68px;
@@ -332,181 +324,171 @@ footer {
 
 /*large devices (desktops)*/
 @media only screen and (max-width: 1200px) and (min-width: 830px) {
-  
   #movieInfoAndPoster {
     width: 90%;
   }
 
-  #movieInfo{
+  #movieInfo {
     font-weight: bold;
     padding-top: 10px;
   }
-  
-  #movieInfo p{
+
+  #movieInfo p {
     padding: 5px;
     font-size: 16px;
   }
-  
-  #movieInfo button{
+
+  #movieInfo button {
     font-size: 16px;
     height: 48px;
     width: 220px;
     font-weight: bold;
   }
-  
-/* ///////////////////////////////////////////// */
-  .characters{
+
+  .characters {
     width: 90%;
   }
-  
-  #characterPictures{
+
+  #characterPictures {
     display: grid;
     color: #4c413f;
     grid-gap: 20px;
     grid-template-columns: auto auto auto;
   }
 
-  
-  .locations{
+  .locations {
     width: 90%;
   }
-  
-  #locationPictures{
+
+  #locationPictures {
     display: grid;
     color: #4c413f;
     grid-gap: 20px;
     grid-template-columns: auto auto auto;
   }
-  
 
-    .vehicles{
-      width: 90%;
-    }
+  .vehicles {
+    width: 90%;
+  }
 
-    
-    #vehiclePictures{
-      display: grid;
-      color: #4c413f;
-      grid-gap: 20px;
-      grid-template-columns: auto auto auto;
-    }
-
+  #vehiclePictures {
+    display: grid;
+    color: #4c413f;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto;
+  }
 }
- 
 
- /* medium devices (tablets, ipads) */
+/* medium devices (tablets, ipads) */
 @media only screen and (max-width: 829px) and (min-width: 590px) {
-
   h1 {
     font-size: 40px;
   }
-          
+
   #movieInfoAndPoster {
     width: 95%;
     border: 1px solid #4c413f;
   }
-  
+
   #movieInfoAndPoster #moviePoster {
-    border-radius: 2%; 
+    border-radius: 2%;
     height: 100%;
     width: 60%;
   }
 
-  #movieInfo p{
+  #movieInfo p {
     text-align: center;
     font-size: 15px;
     padding: 2px;
   }
-  
-  #movieInfo button{
+
+  #movieInfo button {
     font-size: 16px;
     height: 48px;
     width: 220px;
     font-weight: bold;
     margin-top: 10px;
   }
-  
-  /*/////////////////////////////////////////  */
-  .characters{
+
+  .characters {
     width: 95%;
     border-radius: 10px;
   }
-  
-  .characters h2{
-  font-size: 35px;
-  }
-  
-  #characterPictures{
-    grid-gap: 10px;
-    grid-template-columns: auto auto auto;
-  }
-  
-  #characterPictures img{
-  height: 200px;
-  width: 160px;
-  }
-  
-  #characterPictures figcaption{
-    font-size: 14px;
-    width: 160px;
-  }
-  
-  .locations{
-    width: 95%;
-    border-radius: 10px;
-  }
-  
-  .locations h2{
+
+  .characters h2 {
     font-size: 35px;
   }
-  
-  #locationPictures{
+
+  #characterPictures {
     grid-gap: 10px;
     grid-template-columns: auto auto auto;
   }
-  
-  #locationPictures img{
+
+  #characterPictures img {
     height: 200px;
     width: 160px;
   }
-  
-  #locationPictures figcaption{
+
+  #characterPictures figcaption {
     font-size: 14px;
     width: 160px;
-    }
-  
-    .vehicles{
-      width: 95%;
-      border-radius: 10px;
-    }
-    
-    .vehicles h2{
-      font-size: 35px;
-    }
-    
-    #vehiclePictures{
-      grid-gap: 10px;
-      grid-template-columns: auto auto auto;
-    }
-    
-    #vehiclePictures img{
-      height: 200px;
-      width: 160px;
-    }
-    
-    #vehiclePictures figcaption{
-      font-size: 14px;
-    width: 160px;
-      }
-}
+  }
 
+  .locations {
+    width: 95%;
+    border-radius: 10px;
+  }
+
+  .locations h2 {
+    font-size: 35px;
+  }
+
+  #locationPictures {
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+  }
+
+  #locationPictures img {
+    height: 200px;
+    width: 160px;
+  }
+
+  #locationPictures figcaption {
+    font-size: 14px;
+    width: 160px;
+  }
+
+  .vehicles {
+    width: 95%;
+    border-radius: 10px;
+  }
+
+  .vehicles h2 {
+    font-size: 35px;
+  }
+
+  #vehiclePictures {
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+  }
+
+  #vehiclePictures img {
+    height: 200px;
+    width: 160px;
+  }
+
+  #vehiclePictures figcaption {
+    font-size: 14px;
+    width: 160px;
+  }
+}
 
 /*small devices (phones)*/
 @media only screen and (max-width: 589px) and (min-width: 480px) {
   h1 {
     font-size: 30px;
   }
-          
+
   #movieInfoAndPoster {
     flex-direction: column;
     width: 100%;
@@ -514,28 +496,28 @@ footer {
     border: 1px solid #4c413f;
     border-radius: 2px;
   }
-  
+
   #movieInfoAndPoster #moviePoster {
     border-radius: 2px;
     width: 100%;
     height: 60%;
   }
-  
-  #movieInfo{
+
+  #movieInfo {
     text-align: center;
     overflow: hidden;
     font-weight: bolder;
     color: #4c413f;
     padding-top: 5px;
   }
-  
-  #movieInfo p{
+
+  #movieInfo p {
     text-align: center;
     font-size: 14px;
     padding: 1px;
   }
-  
-  #movieInfo button{
+
+  #movieInfo button {
     font-size: 16px;
     padding: 5px;
     height: 30px;
@@ -544,96 +526,95 @@ footer {
     font-weight: normal;
     margin-top: 15px;
   }
-  
-/* ////////////////////////////////////////// */
-  .characters{
+
+  .characters {
     width: 95%;
     border-radius: 2px;
   }
-  
-  .characters h2{
-  font-size: 25px;
-  padding-top: 10px;
-  }
-  
-  #characterPictures{
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: auto auto;
-  }
-  
-  #characterPictures img{
-  height: 240px;
-  width: 200px;
-  }
-  
-  #characterPictures figcaption{
-    font-size: 15px;
-    font-weight: normal;
-    width: 200px;
-  }
-  
-  .locations{
-    width: 95%;
-    border-radius: 2px;
-  }
-  
-  .locations h2{
+
+  .characters h2 {
     font-size: 25px;
     padding-top: 10px;
   }
-  
-  #locationPictures{
+
+  #characterPictures {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: auto auto;
   }
-  
-  #locationPictures img{
+
+  #characterPictures img {
     height: 240px;
     width: 200px;
   }
-  
-  #locationPictures figcaption{
+
+  #characterPictures figcaption {
     font-size: 15px;
     font-weight: normal;
     width: 200px;
-    }
-  
-    .vehicles{
-      width: 95%;
-      border-radius: 2px;
-    }
-    
-    .vehicles h2{
-      font-size: 25px;
-      padding-top: 10px;
-    }
-    
-    #vehiclePictures{
-      display: grid;
+  }
+
+  .locations {
+    width: 95%;
+    border-radius: 2px;
+  }
+
+  .locations h2 {
+    font-size: 25px;
+    padding-top: 10px;
+  }
+
+  #locationPictures {
+    display: grid;
     grid-gap: 10px;
     grid-template-columns: auto auto;
-    }
-    
-    #vehiclePictures img{
-      height: 240px;
-      width: 200px;
-    }
-    
-    #vehiclePictures figcaption{
-      font-size: 15px;
-      font-weight: normal;
-      width: 200px;
-      }
-} 
+  }
+
+  #locationPictures img {
+    height: 240px;
+    width: 200px;
+  }
+
+  #locationPictures figcaption {
+    font-size: 15px;
+    font-weight: normal;
+    width: 200px;
+  }
+
+  .vehicles {
+    width: 95%;
+    border-radius: 2px;
+  }
+
+  .vehicles h2 {
+    font-size: 25px;
+    padding-top: 10px;
+  }
+
+  #vehiclePictures {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto;
+  }
+
+  #vehiclePictures img {
+    height: 240px;
+    width: 200px;
+  }
+
+  #vehiclePictures figcaption {
+    font-size: 15px;
+    font-weight: normal;
+    width: 200px;
+  }
+}
 
 /*smaller devices (phones)*/
- @media only screen and (max-width: 479px) and (min-width: 350px){
+@media only screen and (max-width: 479px) and (min-width: 350px) {
   h1 {
     font-size: 25px;
   }
-          
+
   #movieInfoAndPoster {
     display: flex;
     flex-direction: column;
@@ -642,25 +623,25 @@ footer {
     border: 1px solid #4c413f;
     border-radius: 2px;
   }
-  
+
   #movieInfoAndPoster #moviePoster {
-    border-radius: 2px; 
+    border-radius: 2px;
     height: 50%;
   }
-  
-  #movieInfo{
+
+  #movieInfo {
     font-weight: normal;
     width: 100%;
     height: 50%;
   }
-  
-  #movieInfo p{
+
+  #movieInfo p {
     margin-top: 5px;
     font-size: 14px;
     padding: 0;
   }
-  
-  #movieInfo button{
+
+  #movieInfo button {
     font-size: 16px;
     padding: 5px;
     height: 30px;
@@ -669,104 +650,103 @@ footer {
     font-weight: normal;
     margin-top: 15px;
   }
-  
 
-  .characters{
+  .characters {
     display: flex;
     width: 100%;
   }
-  
-  .characters h2{
-  font-size: 25px;
-  padding-top: 10px;
-  }
-  
-  #characterPictures{
-    display: flex;
-    flex-direction: column;
-    color: #4c413f;
-    gap: 10px;
-    margin-top: 60px;
-  }
-  
-  #characterPictures img{
-  height: 200px;
-  width: 160px;
-  border-radius: 8px;
-  }
-  
-  #characterPictures figcaption{
-    font-size: 14px;
-    font-weight: normal;
-    width: 160px;
-    height: 42px;
-    padding: 2px;
-    border-radius: 4px;
-  }
-  
-  .locations{
-    display: flex;
-    width: 100%;
-  }
-  
-  .locations h2{
+
+  .characters h2 {
     font-size: 25px;
     padding-top: 10px;
   }
-  
-  #locationPictures{
+
+  #characterPictures {
     display: flex;
     flex-direction: column;
     color: #4c413f;
     gap: 10px;
     margin-top: 60px;
   }
-  
-  #locationPictures img{
+
+  #characterPictures img {
     height: 200px;
     width: 160px;
     border-radius: 8px;
   }
-  
-  #locationPictures figcaption{
+
+  #characterPictures figcaption {
     font-size: 14px;
     font-weight: normal;
     width: 160px;
     height: 42px;
     padding: 2px;
     border-radius: 4px;
-    }
-  
-    .vehicles{
-      display: flex;
-      width: 100%;
-    }
-    
-    .vehicles h2{
-      font-size: 25px;
-      padding-top: 10px;
-    }
-    
-    #vehiclePictures{
-      display: flex;
-      flex-direction: column;
-      color: #4c413f;
-      gap: 10px;
-      margin-top: 60px;
-    }
-    
-    #vehiclePictures img{
-      height: 200px;
-      width: 160px;
-      border-radius: 8px;
-    }
-    
-    #vehiclePictures figcaption{
-      font-size: 14px;
-      font-weight: normal;
-      width: 160px;
-      height: 42px;
-      padding: 2px;
-      border-radius: 4px;
-      }
-} 
+  }
+
+  .locations {
+    display: flex;
+    width: 100%;
+  }
+
+  .locations h2 {
+    font-size: 25px;
+    padding-top: 10px;
+  }
+
+  #locationPictures {
+    display: flex;
+    flex-direction: column;
+    color: #4c413f;
+    gap: 10px;
+    margin-top: 60px;
+  }
+
+  #locationPictures img {
+    height: 200px;
+    width: 160px;
+    border-radius: 8px;
+  }
+
+  #locationPictures figcaption {
+    font-size: 14px;
+    font-weight: normal;
+    width: 160px;
+    height: 42px;
+    padding: 2px;
+    border-radius: 4px;
+  }
+
+  .vehicles {
+    display: flex;
+    width: 100%;
+  }
+
+  .vehicles h2 {
+    font-size: 25px;
+    padding-top: 10px;
+  }
+
+  #vehiclePictures {
+    display: flex;
+    flex-direction: column;
+    color: #4c413f;
+    gap: 10px;
+    margin-top: 60px;
+  }
+
+  #vehiclePictures img {
+    height: 200px;
+    width: 160px;
+    border-radius: 8px;
+  }
+
+  #vehiclePictures figcaption {
+    font-size: 14px;
+    font-weight: normal;
+    width: 160px;
+    height: 42px;
+    padding: 2px;
+    border-radius: 4px;
+  }
+}

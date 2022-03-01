@@ -83,7 +83,6 @@ if(found.vehicles.length >0){
 
 //Movie button 
 
-// let watchMovie = document.getElementById("watchMovie")
 let linkMovie = document.getElementById("linkMovie")
 linkMovie.setAttribute("href", found.movie);
 

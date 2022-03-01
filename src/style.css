@@ -51,7 +51,6 @@ header {
   background: #d8af39;
   border-radius: 5px;
   color: #efefef;
-  /* box-shadow: 0 0.3125rem 0.625rem #4c413f; */
   font-weight: bolder;
   cursor: pointer;
   border: #efefef solid;
@@ -461,20 +460,20 @@ footer {
 @media only screen and (max-width: 1400px) and (min-width: 830px) {
   .sliderBox {
     width: 100%;
-    height: 650px;
+    height: 550px;
     position: relative;
   }
 
   .slider {
     width: 100%;
-    height: 650px;
+    height: 550px;
     overflow: hidden;
   }
 
   /*goToAllMovies*/
   .sliderBox .goMovies {
     font-size: 38px;
-    top: 580px;
+    top: 500px;
     position: absolute;
   }
 
@@ -492,15 +491,17 @@ footer {
     color: #4c413f;
     background: rgba(255, 250, 250, 0.39);
     font-style: normal;
-    height: 70px;
+    height: 60px;
     width: 100%;
-    font-size: 48px;
-    top: 75%;
+    font-size: 45px;
+    top: 70%;
   }
 
   .slider #smallText {
     width: 100%;
-    font-size: 42px;
+    font-size: 40px;
+    margin-top: 60px;
+    top: 70%;
   }
 
   #smallText img {
