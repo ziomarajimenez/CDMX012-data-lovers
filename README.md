@@ -32,15 +32,16 @@ Para entender mejor qué información podrían necesitar nuestras usuarias, hici
 
 Además, encontramos que a un 57.7% no le parecía relevante visualizar información detallada de los personajes como color de cabello, género o especie. 
 
-## 2.1 Historias de Usuario
+### 2.1 Historias de Usuario
 Basándonos en esta información, se construyeron tres historias de usuario:
 
 * H.U. 1: Como fan de Studios Ghibli quiero explorar el catalogo de las películas en una pantalla principal para conocer mis opciones.
 * H.U. 2: Como nuevo fan de Studios Ghibli, quiero explorar el catálogo de películas de acuerdo al año para analizar los avances de la animación en el tiempo.
 * H.U. 3: Como poco conocedor de studios Ghibli, quiero saber cuales son las mejores películas a detalle y donde encontrarlas para verlas con mi familia.
 
-## 2.2 Prototipos de baja y alta fidelidad
-Para la creación del prototipo de [baja](
+### 2.2 Prototipos de baja y alta fidelidad
+Para la creación del prototipo de [baja](https://www.figma.com/proto/YrkFwb2XMmOYwdU529ZwwR/DATA-LOVERS-GHIBLI?page-id=0%3A1&node-id=2%3A13&viewport=241%2C48%2C0.13&scaling=scale-down&starting-point-node-id=7%3A244&show-proto-sidebar=1) fidelidad utilizamos la herramienta Figma. 
+Así como para la elaboración de los prototipos de alta fidelidad, en las versiones [desktop](https://www.figma.com/proto/YrkFwb2XMmOYwdU529ZwwR/DATA-LOVERS-GHIBLI?page-id=0%3A1&node-id=50%3A150&viewport=241%2C48%2C0.13&scaling=scale-down-width&starting-point-node-id=50%3A150) y [móvil](https://www.figma.com/proto/YrkFwb2XMmOYwdU529ZwwR/DATA-LOVERS-GHIBLI?page-id=0%3A1&node-id=50%3A358&viewport=241%2C48%2C1&scaling=min-zoom&starting-point-node-id=7%3A244&show-proto-sidebar=1)
 
 ## 3. Feedback
 ## 4. Producto terminado
