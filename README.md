@@ -40,9 +40,20 @@ Basándonos en esta información, se construyeron tres historias de usuario:
 * H.U. 3: Como poco conocedor de studios Ghibli, quiero saber cuales son las mejores películas a detalle y donde encontrarlas para verlas con mi familia.
 
 ### 2.2 Prototipos de baja y alta fidelidad
-Para la creación del prototipo de [baja](https://www.figma.com/proto/YrkFwb2XMmOYwdU529ZwwR/DATA-LOVERS-GHIBLI?page-id=0%3A1&node-id=2%3A13&viewport=241%2C48%2C0.13&scaling=scale-down&starting-point-node-id=7%3A244&show-proto-sidebar=1) fidelidad utilizamos la herramienta Figma. 
-Así como para la elaboración de los prototipos de alta fidelidad, en las versiones [desktop](https://www.figma.com/proto/YrkFwb2XMmOYwdU529ZwwR/DATA-LOVERS-GHIBLI?page-id=0%3A1&node-id=50%3A150&viewport=241%2C48%2C0.13&scaling=scale-down-width&starting-point-node-id=50%3A150) y [móvil](https://www.figma.com/proto/YrkFwb2XMmOYwdU529ZwwR/DATA-LOVERS-GHIBLI?page-id=0%3A1&node-id=50%3A358&viewport=241%2C48%2C1&scaling=min-zoom&starting-point-node-id=7%3A244&show-proto-sidebar=1)
+Basándonos en las historias de usuario, utilizamos la herramienta Figma, para la creación del prototipo de [baja](https://www.figma.com/proto/YrkFwb2XMmOYwdU529ZwwR/DATA-LOVERS-GHIBLI?page-id=0%3A1&node-id=2%3A13&viewport=241%2C48%2C0.13&scaling=scale-down&starting-point-node-id=7%3A244&show-proto-sidebar=1) fidelida.
+Así como para la elaboración de los prototipos de alta fidelidad, en las versiones [desktop](https://www.figma.com/proto/YrkFwb2XMmOYwdU529ZwwR/DATA-LOVERS-GHIBLI?page-id=0%3A1&node-id=50%3A150&viewport=241%2C48%2C0.13&scaling=scale-down-width&starting-point-node-id=50%3A150) y [móvil](https://www.figma.com/proto/YrkFwb2XMmOYwdU529ZwwR/DATA-LOVERS-GHIBLI?page-id=0%3A1&node-id=50%3A358&viewport=241%2C48%2C1&scaling=min-zoom&starting-point-node-id=7%3A244&show-proto-sidebar=1).
+
 
 ## 3. Feedback
+Durante la creación de la página se mostraron  a usuarias los prototipos en sus diferentes etapas para recibir retroalimentación y con base en ella, llegar al producto terminado. Algunas de las recomendaciones fueron:  
+
+* Mejorar la distribución del buscador.
+* Modificar el tamaño de las imágenes del carrusel, de acuerdo al tamaño de pantalla.
+* Considerar un botón para redireccionar al usuario a la sección de películas y filtrado.
+* Optimizar la búsqueda de palabras clave, basado en la experiencia de usuario. 
+
+
 ## 4. Producto terminado
-)
+###Versión desktop
+
+![Imagen final del proyecto](https://github.com/ziomarajimenez/CDMX012-data-lovers/blob/main/celu1.png?raw=true)
