@@ -63,3 +63,12 @@ Durante la creación de la página se mostraron  a usuarias los prototipos en su
 ![Imagen final del proyecto](https://github.com/ziomarajimenez/CDMX012-data-lovers/blob/main/3desktop.PNG?raw=true)  
 
 ![Imagen final del proyecto](https://github.com/ziomarajimenez/CDMX012-data-lovers/blob/main/4desktop.PNG?raw=true)
+
+### Versión móvil
+
+![Imagen final del proyecto](https://github.com/ziomarajimenez/CDMX012-data-lovers/blob/main/celu1.png?raw=true)  
+
+![Imagen final del proyecto](https://github.com/ziomarajimenez/CDMX012-data-lovers/blob/main/celu2.png?raw=true)  
+
+![Imagen final del proyecto](https://github.com/ziomarajimenez/CDMX012-data-lovers/blob/main/celu3.png?raw=true)  
+
